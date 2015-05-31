@@ -1,0 +1,13 @@
+API QRCODE
+REQUEST ==>
+http(s)://api.qrserver.com/v1/create-qr-code/?data=[URL-encoded-text]&size=[pixels]x[pixels]
+
+Teste QRCODE
+TEST ==>
+http://api.qrserver.com/v1/create-qr-code/?data=HelloWorld!&size=100x100
+
+Embed no HTML
+(X)HTML ==>
+<img src="https://api.qrserver.com/v1/create-qr-code/?data=HelloWorld&amp;size=100x100" alt="" title="" />
+
+Extraído FROM ==> http://goqr.me/api/doc/create-qr-code/#general_tos
